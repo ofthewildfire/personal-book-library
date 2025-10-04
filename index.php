@@ -25,7 +25,8 @@ $routes = [
   '/' => 'controllers/books/index.php',
   '/book' => 'controllers/books/show.php',
   '/book/create' => 'controllers/books/create.php',
-  '/book/update' => 'controllers/books/update.php'
+  '/book/update' => 'controllers/books/update.php',
+  '/book/delete' => 'controllers/books/delete.php'
 ];
 
 if(array_key_exists($uri, $routes)) {
